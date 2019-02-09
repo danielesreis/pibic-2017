@@ -1,5 +1,5 @@
 function metrics = calculate_metrics(classes, predicted, reference)
-
+% classes different than zero
 n_classes = max(size(classes));
 
 m = max(size(predicted));
